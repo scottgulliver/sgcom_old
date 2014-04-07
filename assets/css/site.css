@@ -1,0 +1,247 @@
+@import url(http://fonts.googleapis.com/css?family=Quicksand);
+
+html,body,h1,h2,p,ul {
+  border:0;
+  outline:0;
+  font-weight:inherit;
+  font-style:inherit;
+  font-family:inherit;
+  font-size:100%;
+  vertical-align:baseline;
+  margin:0;
+  padding:0;
+}
+
+a.headerlinks {
+  font-family:Georgia;
+}
+
+body {
+  line-height:1;
+  background:#fff;
+  font-family:Georgia;
+  background-color:#faf9f0;
+  color:#444;
+}
+
+ol,ul {
+  list-style:none;
+}
+
+table {
+  border-collapse:separate;
+  border-spacing:0;
+  vertical-align:middle;
+}
+
+caption,th,td {
+  text-align:left;
+  font-weight:400;
+  vertical-align:middle;
+}
+
+a img {
+  border:none;
+}
+
+header {
+  font-family:Quicksand;
+  color:#fff;
+  font-size:25px;
+  text-align:center;
+  background-color:#0992db;
+  border-bottom:1px solid #066699;
+  text-shadow:0 -1px 0 #066699;
+  padding:40px 10px;
+}
+
+header h1 {
+  font-size:30px;
+  padding:0 0 20px;
+}
+
+header h2 {
+  font-size:20px;
+}
+
+.nav {
+  text-align:center;
+  background-color:#1b5674;
+  color:#fff;
+}
+
+.nav ul li {
+  display:inline;
+}
+
+.nav li {
+  margin:0 10px;
+}
+
+.nav ul {
+  padding:10px 0;
+}
+
+.nav a {
+  text-decoration:none;
+  color:#fff;
+}
+
+.nav a:hover {
+  color:#78ccf9;
+}
+
+.nav .current a {
+  color:#78ccf9;
+  font-weight:700;
+}
+
+.container {
+  width:100%;
+  max-width:900px;
+  overflow:hidden;
+  margin:50px auto;
+  padding:0 5px;
+}
+
+.main-content {
+  float:left;
+  width:100%;
+}
+
+.main-content p {
+  margin-bottom:20px;
+}
+
+p {
+  line-height:1.8;
+}
+
+footer {
+  width:100%;
+  max-width:900px;
+  border-top:1px dotted #ccc;
+  padding-top:5px;
+  font-size:13px;
+  text-align:right;
+  margin:50px auto;
+}
+
+.section {
+  display:block;
+  clear:both;
+  padding-top:15px;
+}
+
+.section a {
+  color:#428bca;
+  text-decoration:none;
+  font-weight:700;
+}
+
+.sectioncontent {
+  border-top:1px dotted #ccc;
+  padding-top:5px;
+  font-family:'Open Sans', sans-serif;
+}
+
+.sectionname {
+  font-size:20px;
+  font-weight:700;
+  font-family:'Open Sans', sans-serif;
+  padding:20px 0;
+}
+
+.skillsgroup {
+  width:20%;
+  min-width:150px;
+  float:left;
+  display:block;
+  padding-top:5px;
+}
+
+.skillsname {
+  font-weight:700;
+}
+
+.skillscontent {
+  padding-top:5px;
+  display:block;
+}
+
+.images {
+  width:33%;
+  min-width:100px;
+  max-width:300px;
+  height:auto;
+  min-height:200px;
+  display:block;
+  float:left;
+  position:relative;
+  padding:0 5px;
+}
+
+.description {
+  width:64%;
+  min-width:300px;
+  max-width:600px;
+  display:block;
+  float:left;
+  font-size:14px;
+  padding:0 5px;
+}
+
+.clear {
+  clear:both;
+}
+
+.codeBadgesWrapper {
+  width:100%;
+  text-align:center;
+}
+
+.codeBadgesInner {
+  display:inline-block;
+}
+
+.codeBadge {
+  width:300px;
+  height:100px;
+  background-color:#B8D4E7;
+  padding:10px;
+}
+
+.codeBadgeLink {
+  text-decoration:none;
+  display:inline-block;
+  margin:10px;
+}
+
+.codeBadgeImage {
+  float:left;
+  width:33%;
+  height:100%;
+}
+
+.codeBadgeInfo {
+  float:left;
+  width:67%;
+  height:100%;
+}
+
+.coodeBadgeName, .codeBadgeId {
+  text-align:left;
+  font-family:'Open Sans', sans-serif;
+  margin-left:10px;
+}
+
+.codeBadgeName {
+  line-height:60px;
+  font-weight:900;
+  color:#444;
+}
+
+.codeBadgeId {
+  font-weight:600;
+  color:#888;
+}
